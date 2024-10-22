@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+}
+
+.container{
+    background: rgb(48, 47, 47);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.uno{
+    background: rgb(88, 228, 95);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.dos{
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.tres{
+    background: rgb(58, 202, 228);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
